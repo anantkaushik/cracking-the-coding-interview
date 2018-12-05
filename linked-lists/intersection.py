@@ -1,17 +1,7 @@
 """
-Write a program to find the node at which the intersection of two singly linked lists begins.
-For example, the following two linked lists:
-A:          a1 → a2
-                   ↘
-                     c1 → c2 → c3
-                   ↗            
-B:     b1 → b2 → b3
-begin to intersect at node c1.
-Notes:
-If the two linked lists have no intersection at all, return null.
-The linked lists must retain their original structure after the function returns.
-You may assume there are no cycles anywhere in the entire linked structure.
-Your code should preferably run in O(n) time and use only O(1) memory.
+Given two singly linked lists, determine if the two lists intersect. Return the intersecting node. Note that the intersection
+is defined based on reference, not value. That is, if the kth node of the first linked list is the exact same node (by reference)
+as the jth node of the second linked list, then they are intersecting.
 """
 def getIntersectionNode(headA, headB):
     if headA == None or headB == None:
