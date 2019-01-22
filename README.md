@@ -5,3 +5,4 @@ Topics Covered:
 - [x] [Arrays and Strings](arrays-and-strings/)
 - [x] [Linked Lists](linked-lists/)
 - [x] [Stacks and Queues](stacks-and-queues/)
+- [ ] [Trees and Graphs](Trees-and-Graphs/)
